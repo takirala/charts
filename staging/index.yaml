@@ -2547,7 +2547,7 @@ entries:
     - name: akirillov
     name: knative
     urls:
-    - https://mesosphere.github.io/charts/staging/knative-0.5.1.tgz
+    - https://takirala.github.io/charts/staging/knative-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
     appVersion: v0.22.3
