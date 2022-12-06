@@ -1654,6 +1654,40 @@ entries:
     version: 0.1.0
   istio:
   - apiVersion: v2
+    appVersion: 1.15.3
+    created: "2022-12-06T21:48:49.341349681Z"
+    dependencies:
+    - condition: grafana.enabled
+      name: grafana
+      repository: ""
+      version: 1.1.0
+    - condition: prometheus.enabled
+      name: prometheus-operator
+      repository: ""
+      version: 1.1.1
+    - condition: security.enabled
+      name: security
+      repository: ""
+      version: 0.0.2
+    description: Helm chart for Istio
+    digest: f58f1a7fbfcaefff2d3d2ba993235c0044ba3cf244c25d4d16ebf79afb2c9e42
+    home: http://github.com/istio/istio
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - security
+    - sidecarInjectorWebhook
+    - pilot
+    maintainers:
+    - name: goeldeepak
+    - name: bcmendoza
+    name: istio
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://mesosphere.github.io/charts/staging/istio-1.15.3.tgz
+    version: 1.15.3
+  - apiVersion: v2
     appVersion: 1.14.1
     created: "2022-10-14T14:44:11.255527619Z"
     dependencies:
@@ -2488,6 +2522,33 @@ entries:
     - https://mesosphere.github.io/charts/staging/karma-1.1.21.tgz
     version: 1.1.21
   knative:
+  - apiVersion: v2
+    appVersion: v0.22.3
+    created: "2022-12-06T21:48:49.345144933Z"
+    dependencies:
+    - condition: eventing.enabled
+      name: eventing
+      repository: ""
+      version: 0.2.0
+    - condition: eventing-sources.enabled
+      name: eventing-sources
+      repository: ""
+      version: 0.2.0
+    - condition: serving.enabled
+      name: serving
+      repository: ""
+      version: 0.4.1
+    description: Kubernetes-based platform to build, deploy, and manage modern serverless
+      workloads
+    digest: df502457f4cd2decb838bb67e0cb6043a87e8589e3cabc9ffedd826b5fb0910e
+    home: https://knative.dev/
+    icon: https://raw.githubusercontent.com/knative/docs/master/docs/images/logo/rgb/knative-logo-rgb.jpg
+    maintainers:
+    - name: akirillov
+    name: knative
+    urls:
+    - https://mesosphere.github.io/charts/staging/knative-0.5.1.tgz
+    version: 0.5.1
   - apiVersion: v2
     appVersion: v0.22.3
     created: "2022-10-14T14:44:12.229080935Z"
@@ -5522,14 +5583,14 @@ entries:
     version: 0.0.1
   kubefed:
   - apiVersion: v2
-    created: "2022-10-14T14:44:12.956524323Z"
+    created: "2022-12-06T21:48:49.34609303Z"
     dependencies:
     - condition: controllermanager.enabled
       name: controllermanager
-      repository: https://localhost/
+      repository: ""
       version: 0.5.2
     description: KubeFed helm chart
-    digest: 8b78c885129eb00d6733f44f399a0470afdc1e137c775097114fdf8259e3c35d
+    digest: 3047e097a57ed430e05e5331073e1afc26aa330b0f75df49f6c40412de3b3eec
     name: kubefed
     urls:
     - https://mesosphere.github.io/charts/staging/kubefed-0.5.2.tgz
@@ -11445,4 +11506,4 @@ entries:
     urls:
     - https://mesosphere.github.io/charts/staging/velero-2.1.1.tgz
     version: 2.1.1
-generated: "2022-10-14T14:44:11.039729559Z"
+generated: "2022-12-06T21:48:49.339646915Z"
