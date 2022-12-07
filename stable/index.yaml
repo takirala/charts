@@ -16050,7 +16050,7 @@ entries:
   istio:
   - apiVersion: v2
     appVersion: 1.15.3
-    created: "2022-12-06T21:48:48.412909012Z"
+    created: "2022-12-07T00:10:52.224932333Z"
     dependencies:
     - condition: grafana.enabled
       name: grafana
@@ -16065,7 +16065,7 @@ entries:
       repository: ""
       version: 0.0.2
     description: Helm chart for Istio
-    digest: f58f1a7fbfcaefff2d3d2ba993235c0044ba3cf244c25d4d16ebf79afb2c9e42
+    digest: d56b7603d567baf842f61a9c852eba81d0fc2c5d837b0fa06e32c91ab0be5d20
     home: http://github.com/istio/istio
     icon: https://istio.io/latest/favicons/android-192x192.png
     keywords:
@@ -18156,7 +18156,7 @@ entries:
   knative:
   - apiVersion: v2
     appVersion: v0.22.3
-    created: "2022-12-06T21:48:48.416220626Z"
+    created: "2022-12-07T00:10:52.228600377Z"
     dependencies:
     - condition: eventing.enabled
       name: eventing
@@ -18172,7 +18172,7 @@ entries:
       version: 0.4.1
     description: Kubernetes-based platform to build, deploy, and manage modern serverless
       workloads
-    digest: df502457f4cd2decb838bb67e0cb6043a87e8589e3cabc9ffedd826b5fb0910e
+    digest: 9ec1127133b17331fc17b55ed588a8b67b33135c5d58bc80552ef13ae4f58e71
     home: https://knative.dev/
     icon: https://raw.githubusercontent.com/knative/docs/master/docs/images/logo/rgb/knative-logo-rgb.jpg
     maintainers:
@@ -34954,14 +34954,14 @@ entries:
   kubecost:
   - apiVersion: v2
     appVersion: 1.98.0
-    created: "2022-12-06T21:48:48.411233824Z"
+    created: "2022-12-07T00:10:52.223048434Z"
     dependencies:
     - condition: cost-analyzer.enabled
       name: cost-analyzer
       repository: https://kubecost.github.io/cost-analyzer
       version: 1.98.0
     description: Kubecost
-    digest: d978b121cb91cbb172b9da02b86fae9a808a5d555d501f6c1fc23d67e2f94750
+    digest: 974f014e67d96b508a8958b9d04b27d00f97a755e57b70777be2bf2118defeaa
     home: https://github.com/mesosphere/charts
     maintainers:
     - name: gracedo
@@ -36093,14 +36093,14 @@ entries:
     version: 0.1.0
   kubefed:
   - apiVersion: v2
-    created: "2022-12-06T21:48:48.417878331Z"
+    created: "2022-12-07T00:10:52.232089859Z"
     dependencies:
     - condition: controllermanager.enabled
       name: controllermanager
       repository: ""
       version: 0.5.2
     description: KubeFed helm chart
-    digest: 3047e097a57ed430e05e5331073e1afc26aa330b0f75df49f6c40412de3b3eec
+    digest: 98386186db5b83d01b77520b4e1b721214d9af627ce374f0adad33698eb11d79
     name: kubefed
     urls:
     - https://mesosphere.github.io/charts/staging/kubefed-0.5.2.tgz
@@ -36883,9 +36883,9 @@ entries:
   object-bucket-claim:
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2022-12-06T21:48:48.411494972Z"
+    created: "2022-12-07T00:10:52.223311876Z"
     description: A Helm chart for ObjectBucketClaim to be consumed by other applications.
-    digest: 38509bb111d626dbabeb70b93ee2d94a85810c07fe09f70ecd28c985c1728941
+    digest: 9f8f286d838a3b1705a2c691abd75d235457cc62428f70a338d252fa9fb8db86
     home: https://github.com/mesosphere/charts
     keywords:
     - kommander
@@ -40537,4 +40537,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2022-12-06T21:48:48.398410348Z"
+generated: "2022-12-07T00:10:52.210952246Z"
