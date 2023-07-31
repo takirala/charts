@@ -40537,7 +40537,7 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-    logging-operator:
+  logging-operator:
   - apiVersion: v1
     appVersion: 3.17.10
     created: "2023-07-31T13:17:25.107733851-07:00"
