@@ -913,6 +913,23 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/cosi-0.0.1.tgz
     version: 0.0.1
+  - apiVersion: v2
+    appVersion: 0.0.1-alpha.1
+    created: "2024-12-18T21:24:08.556796Z"
+    description: Container Object Storage Interface (COSI) provisioner for Kubernetes
+    digest: 120cc0eb7a9cde044e8ba62281dc9fb1067863ff8e3e3897af59f331686ed007
+    home: https://container-object-storage-interface.github.io/
+    icon: https://raw.githubusercontent.com/container-object-storage-interface/container-object-storage-interface.github.io/refs/heads/master/static/img/logo-15.svg
+    keywords:
+    - cosi
+    maintainers:
+    - name: takirala
+    name: cosi
+    sources:
+    - https://github.com/kubernetes-sigs/container-object-storage-interface
+    urls:
+    - https://takirala.github.io/charts/stable/cosi-0.0.1-alpha.1.tgz
+    version: 0.0.1-alpha.1
   defaultstorageclass:
   - apiVersion: v1
     appVersion: 0.0.1
@@ -40565,4 +40582,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2024-12-16T21:04:04.571315Z"
+generated: "2024-12-18T21:24:08.556082Z"
