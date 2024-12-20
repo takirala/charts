@@ -914,6 +914,23 @@ entries:
     - https://takirala.github.io/charts/stable/cosi-0.0.1.tgz
     version: 0.0.1
   - apiVersion: v2
+    appVersion: 0.0.1-alpha.2
+    created: "2024-12-20T21:13:11.511611Z"
+    description: Container Object Storage Interface (COSI) provisioner for Kubernetes
+    digest: 16794971df3ddd54b8a583e4ad23f5fec0a46b68c242f5889f8dadf85e690d78
+    home: https://container-object-storage-interface.github.io/
+    icon: https://raw.githubusercontent.com/container-object-storage-interface/container-object-storage-interface.github.io/refs/heads/master/static/img/logo-15.svg
+    keywords:
+    - cosi
+    maintainers:
+    - name: takirala
+    name: cosi
+    sources:
+    - https://github.com/kubernetes-sigs/container-object-storage-interface
+    urls:
+    - https://takirala.github.io/charts/stable/cosi-0.0.1-alpha.2.tgz
+    version: 0.0.1-alpha.2
+  - apiVersion: v2
     appVersion: 0.0.1-alpha.1
     created: "2024-12-18T21:24:08.556796Z"
     description: Container Object Storage Interface (COSI) provisioner for Kubernetes
@@ -968,9 +985,9 @@ entries:
     version: 0.0.1-alpha.1
   - apiVersion: v2
     appVersion: 0.0.1-alpha.0
-    created: "2024-12-20T07:46:50.434401Z"
+    created: "2024-12-20T21:13:11.511836Z"
     description: A Helm chart for COSI BucketClaim(s) to be consumed by other applications.
-    digest: 6884b28f4f6b5f28c9b5c2a59ac8bbfd19c3456c8d0f879607f0145460b231a7
+    digest: 2a49db875c16dcb35c939a3d4079540d0c3e34f794f08f68519feda52572dd88
     home: https://github.com/mesosphere/charts
     keywords:
     - kubernetes
@@ -40636,4 +40653,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2024-12-20T07:46:50.434002Z"
+generated: "2024-12-20T21:13:11.51108Z"
