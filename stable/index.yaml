@@ -930,6 +930,24 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/cosi-0.0.1-alpha.1.tgz
     version: 0.0.1-alpha.1
+  cosi-bucket-kit:
+  - apiVersion: v2
+    appVersion: 0.0.1-alpha.1
+    created: "2024-12-20T03:00:32.448278Z"
+    description: A Helm chart for COSI BucketClaim(s) to be consumed by other applications.
+    digest: 4a0045537c86b07100d90ab6fbf65ea1ac9db6e6cd3b3b533013a51262e379dc
+    home: https://github.com/mesosphere/charts
+    keywords:
+    - kubernetes
+    - cosi
+    - bucket
+    - storage
+    maintainers:
+    - name: takirala
+    name: cosi-bucket-kit
+    urls:
+    - https://takirala.github.io/charts/stable/cosi-bucket-kit-0.0.1-alpha.1.tgz
+    version: 0.0.1-alpha.1
   defaultstorageclass:
   - apiVersion: v1
     appVersion: 0.0.1
@@ -40582,4 +40600,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2024-12-18T21:24:08.556082Z"
+generated: "2024-12-20T03:00:32.447749Z"
