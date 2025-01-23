@@ -914,6 +914,24 @@ entries:
     - https://takirala.github.io/charts/stable/cosi-0.0.1.tgz
     version: 0.0.1
   - apiVersion: v2
+    appVersion: 0.0.1-alpha.4
+    created: "2025-01-23T22:19:48.825846Z"
+    description: Container Object Storage Interface (COSI) provisioner for Kubernetes
+    digest: d3fe9cb18efeb2dd2ddd52fbd90f3bbbe231b7826eba8e2bca8464d2c14fb286
+    home: https://container-object-storage-interface.github.io/
+    icon: https://raw.githubusercontent.com/container-object-storage-interface/container-object-storage-interface.github.io/refs/heads/master/static/img/logo-15.svg
+    keywords:
+    - cosi
+    maintainers:
+    - name: takirala
+    - name: dkoshkin
+    name: cosi
+    sources:
+    - https://github.com/kubernetes-sigs/container-object-storage-interface
+    urls:
+    - https://takirala.github.io/charts/stable/cosi-0.0.1-alpha.4.tgz
+    version: 0.0.1-alpha.4
+  - apiVersion: v2
     appVersion: 0.0.1-alpha.2
     created: "2024-12-20T21:13:11.511611Z"
     description: Container Object Storage Interface (COSI) provisioner for Kubernetes
@@ -950,9 +968,9 @@ entries:
   cosi-bucket-kit:
   - apiVersion: v2
     appVersion: 0.0.1-alpha.2
-    created: "2024-12-20T07:40:12.11117Z"
+    created: "2025-01-23T22:19:48.826199Z"
     description: A Helm chart for COSI BucketClaim(s) to be consumed by other applications.
-    digest: 41648e5ae9c9ee4dab52a549e4d997f6f807d87efa0043145287bf157c2c9c03
+    digest: 0911b6457aa025f1569774e7e266274c5a19b269eca53050fbed40bbb53e2587
     home: https://github.com/mesosphere/charts
     keywords:
     - kubernetes
@@ -962,6 +980,7 @@ entries:
     - ceph
     maintainers:
     - name: takirala
+    - name: mhrabovcin
     name: cosi-bucket-kit
     urls:
     - https://takirala.github.io/charts/stable/cosi-bucket-kit-0.0.1-alpha.2.tgz
@@ -40653,4 +40672,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2024-12-20T21:13:11.51108Z"
+generated: "2025-01-23T22:19:48.824625Z"
