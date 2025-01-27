@@ -915,9 +915,9 @@ entries:
     version: 0.0.1
   - apiVersion: v2
     appVersion: 0.0.1-alpha.4
-    created: "2025-01-25T22:49:31.448534Z"
+    created: "2025-01-27T18:45:31.545587Z"
     description: Container Object Storage Interface (COSI) provisioner for Kubernetes
-    digest: 4dab62518028576951d00d0bc1f565d5da3b940599a7313ad066dd2b85294727
+    digest: 649473bb103bdc62ba84c9694faa14badabb64017b28c03583a696303cc6f516
     home: https://container-object-storage-interface.github.io/
     icon: https://raw.githubusercontent.com/container-object-storage-interface/container-object-storage-interface.github.io/refs/heads/master/static/img/logo-15.svg
     keywords:
@@ -968,9 +968,9 @@ entries:
   cosi-bucket-kit:
   - apiVersion: v2
     appVersion: 0.0.1-alpha.2
-    created: "2025-01-25T22:49:31.44877Z"
+    created: "2025-01-27T18:45:31.546232Z"
     description: A Helm chart for COSI BucketClaim(s) to be consumed by other applications.
-    digest: 9956d08f0d94073ea8b452daa6b91ef84a7a596b2289e9f5ba23e72180eef038
+    digest: 183c4c082be92cff47b251d1d881150c412ffa692f882246987d21773c2a3108
     home: https://github.com/mesosphere/charts
     keywords:
     - kubernetes
@@ -40672,4 +40672,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-25T22:49:31.447497Z"
+generated: "2025-01-27T18:45:31.544757Z"
