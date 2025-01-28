@@ -968,9 +968,9 @@ entries:
   cosi-bucket-kit:
   - apiVersion: v2
     appVersion: 0.0.1-alpha.3
-    created: "2025-01-28T00:22:30.099258Z"
+    created: "2025-01-28T00:57:16.603766Z"
     description: A Helm chart for COSI BucketClaim(s) to be consumed by other applications.
-    digest: 65758ccb4408fc39a346e30bedd893c84f23914954ad51fa761e272874e05510
+    digest: f93fbb55d02a1c598f2b1582dd9004fa131e7baa9a944d4d1c286dba84e9d062
     home: https://github.com/mesosphere/charts
     keywords:
     - kubernetes
@@ -40691,4 +40691,4 @@ entries:
     urls:
     - https://takirala.github.io/charts/stable/vsphere-csi-driver-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-28T00:22:30.098064Z"
+generated: "2025-01-28T00:57:16.603179Z"
